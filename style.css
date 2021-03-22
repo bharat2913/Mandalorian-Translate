@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+/*  CSS rules to specify families
+font-family: 'Syne Mono', monospace; 
+font-family: 'Inconsolata', monospace; */
+
+
+
+:root {
+    /* --primary-color : #60A5FA; */
+    /* --secondary-color : #FCA5A5; */
+    --primary-color : #ffc64d;
+    --secondary-color : #b6f3b4;
+}
+
+
+
+textarea {
+    /* width: 80%; */
+    width: 550px;
+    text-align: center;
+    height: 10vh;
+    display: block;
+    /* margin: 1rem; */
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+.section {
+     padding: 0rem ;
+    /* background-color: var(--secondary-color); */
+    /* padding: 0rem; */
+}
+
+.hero-background {
+    background-color: var(--secondary-color);
+}
+
+.body {
+    max-width: 600px;
+    background-color: var(--secondary-color);
+    padding: 1rem 0rem;
+    margin: auto;
+    font-family: 'Syne Mono', monospace;
+    
+}
+.body-button {
+    text-align: center;
+}
+
+.container {
+
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Syne Mono', monospace;
+
+}
+
+#output {
+    width: 550px;
+    border: 1px solid black;
+    height: 10vh;
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: 'Syne Mono', monospace;
+}
+
+#headingCenter {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    margin: 0px;
+    text-align: center;
+    /* color: white; */
+    border-top-left-radius: 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem 0rem;
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+    font-family: 'Syne Mono', monospace;
+    
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    /* color: white; */
+    padding: 0.5rem 0.95rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    /* margin: 0.5rem; */
+    padding: 0.5rem;
+}
+
+.link {
+
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin: 1rem 0rem; */
+}
